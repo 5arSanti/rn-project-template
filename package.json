@@ -1,0 +1,13 @@
+{
+  "name": "rn-project-template",
+  "private": "true",
+  "description": "Source code for the React - Node 5ar_Santi project template",
+  "devDependencies": {
+    "husky": "^9.1.6"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "back": "cd backend && npm run dev",
+    "front": "cd frontend && npm run dev"
+  }
+}

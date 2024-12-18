@@ -1,0 +1,32 @@
+{
+  "name": "rn-template-back",
+  "version": "0.0.2",
+  "main": "bin/www",
+  "scripts": {
+    "dev": "nodemon --env-file=.env bin/www",
+    "prod": "node --env-file=.env bin/www",
+    "start": "node bin/www"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.5.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mssql": "^10.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  },
+  "author": "",
+  "license": "MIT"
+}

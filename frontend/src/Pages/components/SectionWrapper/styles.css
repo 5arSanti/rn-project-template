@@ -1,0 +1,23 @@
+.section-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+    margin: 10px 0;
+}
+
+.section-wrapper .section-decoration{
+    width: 85%;
+    box-sizing: border-box;
+
+    justify-self: center;
+    align-self: center;
+
+    border-top: 1px solid var(--pallete-2);
+}
+
+@media (max-width: 800px) {
+    .secondary-section-wrapper {
+        padding: 30px !important;
+    }
+}

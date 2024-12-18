@@ -1,0 +1,13 @@
+.sub-info-card-container {
+    border: 1px solid var(--pallete-3);
+
+    border-radius: 10px;
+}
+.sub-info-card-container:hover {
+    background-color: var(--pallete-1);
+    p {
+        color: var(--white);
+    } & span {
+        color: var(--pallete-6);
+    }
+}

@@ -1,0 +1,108 @@
+.dropdown-card-container {
+    width: 100%;
+}
+
+.dropdown-card-button {
+    width: 100%;
+
+	transition: all 0.4s ease;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: transparent;
+
+	border: none;
+    border-radius: 0;
+	border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, var(--pallete-1) 0%, rgba(0,212,255,0) 100%);
+    border-image-slice: 1;
+
+	color: var(--text-color);
+    cursor: pointer;
+}
+.btn.show {
+    background-color: var(--pallete-3);
+
+    color: var(--white);
+}
+.dropdown-card-button:hover {
+    background-color: var(--pallete-3);
+
+    color: var(--white);
+}
+
+.dropdown-card-grid-container {
+    width: 100%;
+
+    box-sizing: border-box;
+    background-color: var(--white);
+    padding: 0;
+
+    border: 0;
+    border-radius: 0;
+
+    animation-name: dropdown;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+
+    transition: all 0.2s ease;
+}
+.dropdown-card-grid-container a {
+    width: 100%;
+    font-size: 12px;
+
+    padding: 5px 15px;
+}
+
+@keyframes dropdown {
+    100% {
+        transform: translateY(45px);
+    }
+}
+
+
+.dropdown-card-search-input  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    transition: all 0.3s ease;
+}
+.dropdown-card-search-input .icon-input-container {
+    width: 100%;
+    padding: 5px 15px;
+    background-color: transparent;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    border-radius: 0px;
+    border: 1px solid var(--pallete-3);
+    outline: none;
+
+    transition: all 0.3s ease;
+
+}
+.dropdown-card-search-input .icon-input-container svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--pallete-3);
+    transition: all 0.3s ease;
+
+}
+.dropdown-card-search-input .icon-input-container input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+
+}
+
+.dropdown-card-search-input:hover svg, .dropdown-card-search-input:hover input {
+    transform: translateX(5px);
+}

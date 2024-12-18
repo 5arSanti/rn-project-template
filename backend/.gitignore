@@ -1,0 +1,9 @@
+*.pdf
+*.xlsx
+
+*.properties.env
+*.env
+
+app.properties.ini
+*.ini
+.vercel

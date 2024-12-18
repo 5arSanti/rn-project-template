@@ -1,0 +1,78 @@
+:root{
+    --navbar-color: transparent;
+    --footer-color:  #918ef4;
+
+    --main-body-color: #EEFAFF;
+    --main-title-color: #141b41;
+
+    --lines-color: #918ef4;
+    --lines-color2: #dee7e7;
+
+    --pallete-1: #98b9f2;
+    --pallete-2: #141b41;
+    --pallete-3: #918ef4;
+    --pallete-4: #eaf1ff;
+    --pallete-5: #becfec;
+    --pallete-6: #141b41ab;
+
+    --text-color: #717171;
+    --all-info-container-color: #E6EFFD;
+    
+    --black-to-white-color: #000000;
+    --white-to-black-color: #FFFFFF;
+
+    --icon-colors: #DCDCDC;
+
+    --navbar-height: 80px;
+
+    --white: rgba(255,255,255,1);
+    --white-025: rgba(255,255,255,.25);
+    --white-05: rgba(255,255,255,.5);
+    --white-075: rgba(255,255,255,.75);
+    --white-095: rgba(255,255,255,0.95);
+
+    --black: rgba(0,0,0,1);
+    --black-025: rgba(0,0,0,0.25);
+    --black-05: rgba(0,0,0,0.5);
+
+    --green-bg: #e6ffe2;
+    --red-bg: #ffe5e3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p, span, div, h2, h1 {
+    margin: 0 !important;
+}
+
+body {
+    margin: 0;
+    padding: var(--navbar-height) 0 0 0;
+    font-family: "Roboto" !important;
+    font-weight: 100;
+    font-style: normal;
+
+    background: var(--main-body-color) !important;
+
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: transparent;
+}
+button {
+    border: none;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+}

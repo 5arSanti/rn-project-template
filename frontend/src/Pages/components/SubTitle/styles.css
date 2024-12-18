@@ -1,0 +1,35 @@
+.sub-title {
+    width: 100%;
+    position: relative;
+}
+.sub-title h2 {
+    width: 100%;
+
+    font-weight: 300;
+
+    display: inline-block;
+    position: relative;
+
+    padding: 10px 0 13px;
+
+    color: var(--text-color);
+
+    font-weight: 600;
+}
+
+.sub-title-style::before {
+    content: '';
+    position: absolute;
+
+    bottom: 0;
+
+    width: 30%; 
+    height: 3px; 
+    background-color: var(--lines-color); 
+}
+.sub-title-style-left::before {
+    left: 0;
+}
+.sub-title-style-right::before {
+    right: 0;
+}
