@@ -38,6 +38,13 @@ app.use(express.json());
 app.use(cookieParser());
 
 
+app.get("/", (request, response) => {
+	try {
+		return response.status(200).json({Status: "Success", message: "API Running"});
+	} catch (err) {
+		return response.status(500).json({Error: err.message});
+	}
+})
 
 routerApi(app);
 

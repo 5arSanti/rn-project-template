@@ -15,6 +15,7 @@ const routerApi = (app) => {
 	router.use("/auth", authRouter);
 
 	router.use("/version", versionRouter);
+
 }
 
 module.exports = routerApi;

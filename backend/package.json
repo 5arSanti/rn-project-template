@@ -1,6 +1,6 @@
 {
   "name": "rn-template-back",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "bin/www",
   "scripts": {
     "dev": "nodemon --env-file=.env bin/www",

@@ -34,7 +34,7 @@ const AppProvider = ({children}) => {
 
     React.useEffect(() => {
         const endpoints = [
-            
+            ``
         ]
 
         fetchData(endpoints)
