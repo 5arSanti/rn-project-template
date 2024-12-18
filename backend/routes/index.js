@@ -12,9 +12,9 @@ const routerApi = (app) => {
 	app.use(`/${process.env.API_STRUCTURE}/v1`, router);
 
 	// Routes
-	router.use("/auth", authRouter);
+	// router.use("/auth", authRouter);
 
-	router.use("/version", versionRouter);
+	// router.use("/version", versionRouter);
 
 }
 
